@@ -4,3 +4,19 @@ html{
   font-weight: normal;
   background-color: #f0efd1;
 }
+
+nav {
+  cursor: pointer;
+  min-width: 60px;
+  max-width: 148px;
+  margin: 0;
+  padding: 0;
+  background: #0092BF;
+  position: fixed;
+  left: 0;
+  top: 194px;
+  text-align: center;
+  overflow: hidden;
+  color: white;
+  z-index: 1000;
+}
