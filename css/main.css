@@ -1,17 +1,19 @@
 html{
-  font: 20px 'Helvetica Neue', 'Lucida Grande', Arial, sans-serif;
+  font: 18px 'Helvetica Neue', 'Lucida Grande', Arial, sans-serif;
   color: black;
   font-weight: normal;
   background-color: #f0efd1;
+  line-height: 1.5em;
 }
 
 nav {
   cursor: pointer;
+  height: 100px;
   min-width: 60px;
   max-width: 148px;
   margin: 0;
-  padding: 0;
-  background: #0092BF;
+  padding: 10px;
+  background: black;
   position: fixed;
   left: 0;
   top: 194px;
@@ -19,4 +21,32 @@ nav {
   overflow: hidden;
   color: white;
   z-index: 1000;
+  
+  -moz-border-radius: 0px 6px 6px 0px;
+  -webkit-border-radius: 0px 6px 6px 0px;
+  border-radius: 0px 6px 6px 0px;
+  
+}
+
+section {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+section div{
+  padding: 20px;
+  background-color: #dbd5aa;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  height: 600px;
+  margin: 20px;
+}
+
+section div.twoColumns{
+  width: 420px;
+}
+
+section div.left{
+  float: left;
 }
