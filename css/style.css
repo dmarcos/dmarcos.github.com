@@ -9,36 +9,36 @@ p{
 }
 
 #container{
-  width: 1240px;
+  width: 960px;
   margin: auto;
 }
 
 #masterHead{
-  width: 1240px;
-  height: 367px;
+  width: 960px;
+  height: 284px;
   display: inline-block;
 }
 
 #content {
-  width: 1240px;
+  width: 595px;
   /*box-shadow: 0 0 3px #999;*/
   display: inline-block;
-  margin-left: 0px;
+  margin-left: 2px;
 }
 
 article {
-  width: 770px;
+  width: 597px;
   color: #fffdd8;
   font-family: "camingodos-web", sans-serif;
   font-style: normal;
   font-weight: 200;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.8em;
 }
 
 article div.titleUnderline{
-  height: 2px;
-  width: 770px;
+  height: 1px;
+  width: 597px;
   background-color: #609bb0;
   margin: 20px 0px 0px 0px;
   box-shadow: 1px 1px 1px #000;
@@ -48,6 +48,6 @@ article h1{
   margin-bottom: 20px;
   color: white;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 22px;
   text-shadow: 1px 1px 1px #000; 
 }
