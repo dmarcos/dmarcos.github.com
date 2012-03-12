@@ -1,0 +1,53 @@
+body {
+  background-image:url("/images/husk.png");
+  margin: 50px auto auto;
+  background-color: #F5F0EB;
+}
+
+p{
+  margin-top: 40px;
+}
+
+#container{
+  width: 1240px;
+  margin: auto;
+}
+
+#masterHead{
+  width: 1240px;
+  height: 367px;
+  display: inline-block;
+}
+
+#content {
+  width: 1240px;
+  /*box-shadow: 0 0 3px #999;*/
+  display: inline-block;
+  margin-left: 0px;
+}
+
+article {
+  width: 770px;
+  color: #fffdd8;
+  font-family: "camingodos-web", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 1.8em;
+}
+
+article div.titleUnderline{
+  height: 2px;
+  width: 770px;
+  background-color: #609bb0;
+  margin: 20px 0px 0px 0px;
+  box-shadow: 1px 1px 1px #000;
+}
+
+article h1{
+  margin-bottom: 20px;
+  color: white;
+  font-weight: 400;
+  font-size: 24px;
+  text-shadow: 1px 1px 1px #000; 
+}
