@@ -2,10 +2,32 @@ body {
   background-image:url("/images/husk.png");
   margin: 50px auto auto;
   background-color: #F5F0EB;
+  color: #fffdd8;
+  font-family: "camingodos-web", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 1.8em;
 }
 
 p{
-  margin-top: 40px;
+  margin: 30px 0px 30px 0px;
+}
+
+h1{
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: white;
+  font-weight: 400;
+  text-shadow: 1px 1px 1px #000; 
+}
+
+h2{
+  margin-top: 10px;
+  font-size: 16px;
+  color: white;
+  text-shadow: 1px 1px 1px #000; 
+  text-align: left;
 }
 
 #container{
@@ -20,34 +42,48 @@ p{
 }
 
 #content {
+  margin-top: 50px;
   width: 595px;
   /*box-shadow: 0 0 3px #999;*/
-  display: inline-block;
+  float: left;
   margin-left: 2px;
+}
+
+#sidebar {
+  width: 250px;
+  float: right;  
+  margin: 60px 0px 0px 75px;
+}
+
+#sidebar h1{
+  font-size: 18px;
+}
+
+#sidebar div.underline{
+  width: 250px;
+}
+
+.underline{
+  height: 1px;
+  background-color: #609bb0;
+  margin: 0px 0px 0px 0px;
+  box-shadow: 1px 1px 1px #000;
+}
+
+a.about{
+  position: relative;
+  top: 290px;
+  left: 780px;
+  display: block;
+  width: 58px; 
+  height: 34px;
+  background-image: url("/images/about.png");
 }
 
 article {
   width: 597px;
-  color: #fffdd8;
-  font-family: "camingodos-web", sans-serif;
-  font-style: normal;
-  font-weight: 200;
-  font-size: 18px;
-  line-height: 1.8em;
 }
 
-article div.titleUnderline{
-  height: 1px;
-  width: 597px;
-  background-color: #609bb0;
-  margin: 20px 0px 0px 0px;
-  box-shadow: 1px 1px 1px #000;
-}
-
-article h1{
-  margin-bottom: 20px;
-  color: white;
-  font-weight: 400;
-  font-size: 22px;
-  text-shadow: 1px 1px 1px #000; 
+article div.underline{
+  width: 595px;
 }
