@@ -16,7 +16,7 @@ p{
 
 h1{
   margin-bottom: 10px;
-  font-size: 20px;
+  font-size: 26px;
   color: white;
   font-weight: 400;
   text-shadow: 1px 1px 1px #000; 
@@ -24,8 +24,9 @@ h1{
 
 h2{
   margin-top: 10px;
-  font-size: 16px;
+  font-size: 14px;
   color: white;
+  font-weight: 100;
   text-shadow: 1px 1px 1px #000; 
   text-align: left;
 }
@@ -42,7 +43,7 @@ h2{
 }
 
 #content {
-  margin-top: 50px;
+  margin-top: 80px;
   width: 595px;
   /*box-shadow: 0 0 3px #999;*/
   float: left;
@@ -65,7 +66,7 @@ h2{
 
 a.button {
    display: inline-block;
-   height: 24px; 
+   height: 284pxpx; 
    width: 85px;
    color: white;
    font-size: 14px;
@@ -94,7 +95,7 @@ a.buttonOlder{
 
 a.buttonNewer span.icon{
   position: relative;
-  top: 2px;
+  top: 5px;
   float: right;
   width: 24px;
   height: 21px;
@@ -104,7 +105,7 @@ a.buttonNewer span.icon{
 
 a.buttonOlder span.icon{
   position: relative;
-  top: 2px;
+  top: 5px;
   float: left;
   width: 24px;
   height: 21px;
@@ -127,6 +128,11 @@ a.about{
   width: 58px; 
   height: 34px;
   background-image: url("/images/about.png");
+  opacity: 0.5;
+}
+
+a.about:hover{
+  opacity: 1.0;
 }
 
 article {
