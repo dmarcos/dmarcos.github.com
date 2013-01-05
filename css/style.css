@@ -1,12 +1,19 @@
 body {
   background-color: white;
   color: black;
+  font-family: "camingodos-web", sans-serif;
 }
 
 a, a:visited {
   color: #333;
   text-decoration: none;
   outline: 0;
+}
+
+::selection {
+  background: rgb(229, 94, 90);
+  color: white;
+  text-shadow: none;
 }
 
 header {
@@ -159,6 +166,7 @@ p{
 }
 
 @media screen and (max-width: 600px) {
+
  header {
     position: relative;
     width: 100%;
