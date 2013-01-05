@@ -1,0 +1,130 @@
+body {
+  background-image:url("/images/husk.png");
+  margin: 50px auto auto;
+  background-color: #F5F0EB;
+  color: #fffdd8;
+  font-family: "camingodos-web", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 1.8em;
+}
+
+p{
+  margin: 30px 0px 30px 0px;
+}
+
+h1{
+  margin-bottom: 10px;
+  font-size: 26px;
+  color: white;
+  font-weight: 400;
+  text-shadow: 1px 1px 1px #000; 
+}
+
+h2{
+  margin-top: 10px;
+  font-size: 14px;
+  color: white;
+  font-weight: 100;
+  text-shadow: 1px 1px 1px #000; 
+  text-align: left;
+}
+
+#container{
+  width: 960px;
+  margin: auto;
+}
+
+#masterHead{
+  width: 960px;
+  height: 284px;
+  display: inline-block;
+}
+
+#content {
+  margin-top: 80px;
+  width: 595px;
+  /*box-shadow: 0 0 3px #999;*/
+  float: left;
+  margin-left: 2px;
+}
+
+a.button {
+   display: inline-block;
+   height: 284pxpx; 
+   width: 85px;
+   color: white;
+   font-size: 14px;
+   line-height: 24px;
+   background-color: transparent;
+   text-align: center;
+   border-radius: 50px; 
+   -moz-border-radius: 50px; 
+   -webkit-border-radius: 50px;
+   text-decoration: none;
+   cursor: pointer;
+   padding-left: 5px;
+}
+
+a.button:hover span.icon{
+  opacity: 1.0;
+}
+
+a.buttonNewer{
+  float: right; 
+}
+
+a.buttonOlder{ 
+  float: left;
+}
+
+a.buttonNewer span.icon{
+  position: relative;
+  top: 5px;
+  float: right;
+  width: 24px;
+  height: 21px;
+  background: url('/images/arrowRight.png');
+  opacity: 0.5;
+}
+
+a.buttonOlder span.icon{
+  position: relative;
+  top: 5px;
+  float: left;
+  width: 24px;
+  height: 21px;
+  background: url('/images/arrowLeft.png');
+  opacity: 0.5;
+}
+
+.underline{
+  height: 1px;
+  background-color: #609bb0;
+  margin: 0px 0px 0px 0px;
+  box-shadow: 1px 1px 1px #000;
+}
+
+a.about{
+  position: relative;
+  top: 290px;
+  left: 780px;
+  display: block;
+  width: 58px; 
+  height: 34px;
+  background-image: url("/images/about.png");
+  opacity: 0.5;
+}
+
+a.about:hover{
+  opacity: 1.0;
+}
+
+article {
+  width: 705px;
+}
+
+article div.underline{
+  width: 705px;
+}

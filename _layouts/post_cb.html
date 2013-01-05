@@ -7,22 +7,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="Diego Marcos">
-    <link rel="stylesheet" href="css/default.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/default.css">
+    <link rel="stylesheet" href="/css/style.css">
   </head>
   
   <body>
     <div id="container">
       <nav>
-        <a class="button buttonOlder" href=""><img src="/images/older.png" width="50" height="30" alt=""><span class="icon"></a>
-        <a class="button buttonNewer" href=""><img src="/images/newer.png" width="50" height="30" alt=""><span class="icon"></a>
+        {% if page.previous.url %}   
+        <a class="button buttonOlder" href="{{page.previous.url}}"><img src="/images/older.png"
+        width="50" height="30" alt=""><span class="icon"></a>
+        {% endif %} 
+        {% if page.next.url %} 
+        <a class="button buttonNewer" href="{{page.next.url}}"><img src="/images/newer.png" width="50" height="30" alt=""><span class="icon"></a>
+        {% endif %} 
       </nav>
       <div id="masterHead">
         <a class="about" href="/"></a>
         <img src="/images/masterHead4.png" width="960" height="284" alt="">
       </div>
       <div id="content">
+        <article>
+        <h1>{{ page.title }}</h1>
+        <div class="underline"></div>
+        <h2>{{ page.date | date: "%B %e, %Y" }}</h2>
         {{ content }}
+        </article>
       </div>
       <div id="sidebar">
       
@@ -36,4 +46,4 @@
   </body>
 
 </html>
-
+    

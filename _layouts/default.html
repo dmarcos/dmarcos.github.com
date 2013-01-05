@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Diego Marcos">
+    <link rel="stylesheet" href="/css/default.css">
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  
+  <body>
+    <header>
+      <hgroup id="blogTitle">
+        <h1>Swimming Lessons for Modern Life</h1>
+        <ul id="categories">
+          <li id="search">
+            <form id="searchForm" role="search" method="get" action="http://swimminglessonsformodernlife.com/">
+              <div>
+                <input id="searchInput" type="text" value="" name="search">
+                <input id="searchSubmit" type="submit" value="Search">
+              </div>
+            </form>
+          </li>
+          <li id="tableOfContents"><a href="/tablecontents">Table of Contents</a></li>
+          <li><a href="http://twitter.com/dmarcos">@dmarcos</a></li>
+        </ul>
+      </hgroup>
+    </header>
+    <section id="main">
+      <div id="entries">
+        {{ content }}
+      </div>
+    </section>
+    <!-- ONLINE -->
+    <script type="text/javascript" src="http://use.typekit.com/tcv2air.js"></script>
+    <!-- LOCAL -->
+    <!-- <script type="text/javascript" src="http://use.typekit.com/wqc3mrt.js"></script> -->
+    <script type="text/javascript"> try { Typekit.load(); } catch (e) {} </script>
+  </body>
+
+</html>
