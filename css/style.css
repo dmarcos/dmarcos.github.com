@@ -1,6 +1,5 @@
 body {
-  background-color: white;
-  color: black;
+  color: white;
   font-family: "museo-sans", sans-serif;
   font-weight: 300;
 }
@@ -20,13 +19,13 @@ a, a:visited {
 header {
   position: fixed;
   min-height: 100%;
-  background-color: rgb(234, 234, 234);
-  width: 27%;
+  background-color: rgb(34, 34, 34);
+  width: 15%;
   color: #333;
 }
 
 section#main {
-  margin-left: 27%;
+  margin-left: 15%;
   position: relative;
   z-index: 10;
   background-color: white;
@@ -35,22 +34,22 @@ section#main {
 }
 
 #blogTitle{
-  margin-top: 40px;
+  margin-top: 30px;
   text-align: center
 }
 
 #blogTitle h1{
   font-size: 30px;
   line-height: 30px;
-  font-weight: 900;
-  font-size: 30px;
+  font-weight: bold;
+  font-size: 2.8em;
   padding-left: 20px;
   padding-right: 20px;
-  line-height: 36px;
+  line-height: 50px;
   border: none;
   font-family: "myriad-pro", sans-serif;
   display: block;
-  color: #1B1B1B;
+  color: white;
 }
 
 article{
@@ -65,7 +64,7 @@ article{
 }
 
 article h2{
-  font-size: 2.0em;
+  font-size: 2.8em;
   font-weight: 600;
   max-width: 500px;
   line-height: 1.1em;
@@ -73,7 +72,6 @@ article h2{
 }
 
 article h2 a{
-  color: black;
   text-decoration: none;
   font-weight: 900;
 }
@@ -87,17 +85,17 @@ ul#categories{
 }
 
 ul#categories li{
-  color: white;
   margin: 5px 0px 5px 0px;
   font-size: 14px;
   padding: 10px;
-  background-color: #999;
+  background-color: rgb(234, 234, 234);
   border: 2px solid transparent;
 }
 
 ul#categories li a{
   display: block;
-  color: white;
+  color: rgb(34, 34, 34);
+  font-weight: bold;
   width: 100%;
 }
 
@@ -106,8 +104,6 @@ ul#categories li:hover{
 }
 
 ul#categories li#search{
-  background-color: rgb(234, 234, 234);
-  border: 2px solid #999;
   padding: 0px;
 }
 
@@ -150,12 +146,7 @@ li#philosophy{
 .postDate {
   font-style: italic;
   font-size: 14px;
-  /*background-color: rgb(234, 234, 234);
-  padding: 5px 0px 5px 51px;
-  margin-left: -51px;
-  border: 1px solid #D6D6D6;
-  border-left: none;
-  max-width: 90px;*/
+  color: rgb(34, 34, 34);
 }
 
 p{
@@ -163,7 +154,7 @@ p{
   line-height: 27px;
   margin-top: 22px;
   margin-bottom: 22px;
-  color: black;
+  color: rgb(34, 34, 34);
 }
 
 @media screen and (max-width: 600px) {
