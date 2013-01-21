@@ -1,0 +1,14 @@
+---
+layout: default
+title: "Code Beast"
+---
+
+<ul>
+{% for post in site.posts limit: 1 %}
+  <article>
+    <div class="postDate">{{ post.date | date: "%B %e, %Y" }}</div>
+    <h2><a>{{ post.title }}<a></h2>
+    {{ post.content }}
+  </article>
+{% endfor %} 
+</ul>
