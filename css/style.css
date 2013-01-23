@@ -59,6 +59,33 @@ section#main {
   color: white;
 }
 
+table#tableOfContents{
+  color: #333;
+  font-size: 30px;
+  font-weight: bold;
+  width: 70%;
+  margin: 50px;
+}
+
+table#tableOfContents td{
+  padding-top: 15px;
+  padding-bottom: 5px;
+  border-bottom-color: rgb(204, 204, 204);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+table#tableOfContents td#postDate{
+  width: 140px;
+  font-size: 16px;
+  font-style: italic;
+  color: rgb(34, 34, 34);
+  font-weight: lighter;
+}
+
+table#tableOfContents td#postTitle{
+}
+
 article{
   width: auto;
   display: block;
