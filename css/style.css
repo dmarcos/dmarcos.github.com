@@ -41,17 +41,16 @@ section#main {
 }
 
 #blogTitle{
-  margin-top: 30px;
+  padding: 20px;
   text-align: center
 }
 
 #blogTitle h1{
+  margin-bottom: 20px;
   font-size: 30px;
   line-height: 30px;
   font-weight: bold;
   font-size: 2.4em;
-  padding-left: 20px;
-  padding-right: 20px;
   line-height: 50px;
   border: none;
   font-family: "myriad-pro", sans-serif;
@@ -115,10 +114,6 @@ article h2 a{
 
 article p {
   max-width: 500px;
-}
-
-ul#categories{
-  padding: 20px;
 }
 
 ul#categories li{
@@ -200,8 +195,6 @@ p{
     width: 100%;
     min-width: 0;
     margin-left: 0px;
-    padding-top: 10px;
-    padding-left: 10px;
     position: relative;
     z-index: 10;
   }
@@ -210,10 +203,6 @@ p{
     max-width: none;
     display: block;
     width: auto;
-  }
-
-  #blogTitle{
-    margin-top: 20px;
   }
 
   article{
