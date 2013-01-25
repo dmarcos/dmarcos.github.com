@@ -91,9 +91,6 @@ table#tableOfContents td#postDate{
   font-weight: lighter;
 }
 
-table#tableOfContents td#postTitle{
-}
-
 article{
   width: auto;
   display: block;
@@ -192,6 +189,10 @@ p{
     width: 100%;
     overflow: hidden;
     min-height: 0px;    
+  }
+
+  table#tableOfContents{
+    width: 100%;
   }
 
   section#main {
