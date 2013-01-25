@@ -177,7 +177,7 @@ p{
   color: rgb(34, 34, 34);
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1024px) {
 
  header {
     position: relative;
