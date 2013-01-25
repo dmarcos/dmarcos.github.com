@@ -193,6 +193,7 @@ p{
 
   table#tableOfContents{
     width: 100%;
+    font-size: 18px;
   }
 
   section#main {
@@ -219,6 +220,10 @@ p{
     margin: auto;
     display: block;
     padding: 20px;
+  }
+
+  article h2{
+    font-size: 22px;
   }
 
 }
