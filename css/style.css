@@ -48,7 +48,6 @@ section#main {
 
 h1{
   font-size: 45px;
-  line-height: 30px;
   font-weight: bold;
   line-height: 50px;
   border: none;
@@ -146,14 +145,14 @@ ul#categories li#search {
   display: inline-block;
   font-size: 20px;
   float: left;
-  width: 5%;
+  width: 10%;
 }
 
 #searchInput {
   border: none;
   border-color: #F1F1F1;
   text-indent: 10px;
-  width: 90%;
+  width: 85%;
   float: right;
   font-size: 16px;
 }
