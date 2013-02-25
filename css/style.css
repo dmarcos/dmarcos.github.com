@@ -1,6 +1,6 @@
 html, body{
   width: 100%;
-  overflow-y: scroll; 
+  overflow-y: scroll;
   margin: 0px;
 }
 
@@ -122,31 +122,41 @@ ul#categories li{
   padding: 10px;
   background-color: rgb(234, 234, 234);
   border: 2px solid transparent;
+  height: 25px;
+  width: 100%;
+  display: table;
 }
 
 ul#categories li a{
-  display: block;
+  display: inline-block;
   color: rgb(34, 34, 34);
   font-weight: bold;
-  width: 100%;
+  vertical-align: middle;
+  display: table-cell;
 }
 
 ul#categories li:hover{
   background-color: rgb(229, 94, 90);
 }
 
-ul#categories li#search{
-  padding: 0px;
+ul#categories li#search {
+  background-color: white;
+}
+
+#searchIcon {
+  display: inline-block;
+  font-size: 20px;
+  float: left;
+  width: 10%;
 }
 
 #searchInput {
-  background: url("/images/magnifier.png") 14px center no-repeat;
   border: none;
   border-color: #F1F1F1;
-  text-indent: 40px;
-  padding: 10px 0px 10px 0px;
-  width: 100%;
-  margin: 0px;
+  text-indent: 10px;
+  width: 90%;
+  float: right;
+  font-size: 16px;
 }
 
 input#searchInput:focus{
@@ -177,14 +187,14 @@ p{
   color: rgb(34, 34, 34);
 }
 
-@media only screen and (max-width: 800px), 
+@media only screen and (max-width: 800px),
        only screen and (min-device-width: 768px) and (max-device-width : 1024px) and (orientation : portrait){
 
  header {
     position: relative;
     width: 100%;
     overflow: hidden;
-    min-height: 0px;    
+    min-height: 0px;
   }
 
   table#tableOfContents{
@@ -202,8 +212,7 @@ p{
 
   ul#categories li{
     max-width: none;
-    display: block;
-    width: auto;
+    width: 100%;
   }
 
   article{
