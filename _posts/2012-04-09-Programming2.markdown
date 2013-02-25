@@ -1,15 +1,9 @@
 ---
 layout: post
-title: Test 1
+title: Long title yeah
 category: Brogramming
 ---
 
-<p>
-  01/01/2012 - Run 6km 35'
-  01/03/2012 - Run 8km 40'
-  01/04/2012 - Run 4Km 19'45"
-  01/05/2012 - Run 10Km 50'49"
-</p>
 <p>
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dolor lacus,
   cursus eget ultricies et, faucibus id nulla. Duis semper hendrerit tellus vel egestas.

@@ -5,11 +5,6 @@ category: Brogramming
 ---
 
 <p>
-  01/01/2012 - Run 6km 35'
-  01/03/2012 - Run 8km 40'
-  01/04/2012 - Run 4Km 19'45''
-</p>
-<p>
   Is not the best kind of originality that which comes after a sound apprenticeship?
   That which shall prove to be the blending of a firm conception of, "useful precedent"
 </p>

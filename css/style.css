@@ -2,6 +2,7 @@ html, body{
   width: 100%;
   overflow-y: scroll;
   margin: 0px;
+  font-size: 30px;
 }
 
 body {
@@ -45,17 +46,19 @@ section#main {
   text-align: center
 }
 
-#blogTitle h1{
-  margin-bottom: 20px;
-  font-size: 30px;
+h1{
+  font-size: 45px;
   line-height: 30px;
   font-weight: bold;
-  font-size: 2.4em;
   line-height: 50px;
   border: none;
   font-family: "myriad-pro", sans-serif;
+}
+
+#blogTitle h1{
   display: block;
   color: white;
+  margin-bottom: 38px;
 }
 
 #blogTitle h1 a{
@@ -69,7 +72,6 @@ section#main {
 
 table#tableOfContents{
   color: #333;
-  font-size: 30px;
   font-weight: bold;
   width: 70%;
 }
@@ -94,20 +96,17 @@ article{
   width: auto;
   display: block;
   position: relative;
-  padding: 50px;
+  padding: 20px 0px 0px 50px;
   min-height: 130px;
 }
 
-article h2{
+article h1{
   color: #333;
-  font-size: 2.8em;
-  font-weight: 600;
+  font-weight: 400;
   max-width: 500px;
-  line-height: 1.1em;
-  margin-bottom: 14px;
 }
 
-article h2 a{
+article h1 a{
   text-decoration: none;
   font-weight: 900;
 }
@@ -118,7 +117,7 @@ article p {
 
 ul#categories li{
   margin: 5px 0px 5px 0px;
-  font-size: 14px;
+  font-size: 16px;
   padding: 10px;
   background-color: rgb(234, 234, 234);
   border: 2px solid transparent;
@@ -147,7 +146,7 @@ ul#categories li#search {
   display: inline-block;
   font-size: 20px;
   float: left;
-  width: 10%;
+  width: 5%;
 }
 
 #searchInput {
@@ -175,7 +174,7 @@ input#searchInput:focus{
 
 .postDate {
   font-style: italic;
-  font-size: 14px;
+  font-size: 12px;
   color: rgb(34, 34, 34);
 }
 
@@ -185,6 +184,10 @@ p{
   margin-top: 20px;
   margin-bottom: 20px;
   color: rgb(34, 34, 34);
+}
+
+@media screen and (max-width: 1366){
+  font-size: 1
 }
 
 @media only screen and (max-width: 800px),
