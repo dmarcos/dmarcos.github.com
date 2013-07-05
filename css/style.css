@@ -114,6 +114,10 @@ article p {
   max-width: 500px;
 }
 
+ul#categories {
+  padding-right: 30px;
+}
+
 ul#categories li{
   margin: 5px 0px 5px 0px;
   font-size: 16px;
@@ -152,7 +156,7 @@ ul#categories li#search {
   border: none;
   border-color: #F1F1F1;
   text-indent: 10px;
-  width: 80%;
+  width: 85%;
   float: right;
   font-size: 16px;
 }
