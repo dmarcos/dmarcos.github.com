@@ -114,10 +114,6 @@ article p {
   max-width: 500px;
 }
 
-ul#categories {
-  padding-right: 30px;
-}
-
 ul#categories li{
   margin: 5px 0px 5px 0px;
   font-size: 16px;
