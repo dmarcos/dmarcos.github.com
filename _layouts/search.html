@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<section id="search-results" style="display: none;">
+  <div class="entries"></div>
+</section>
+<script src="/js/jquery-2.0.3.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="/js/lunr.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="/js/mustache.js" type="text/javascript" charset="utf-8"></script>
+<script src="/js/date.format.js" type="text/javascript" charset="utf-8"></script>
+<script src="/js/URI.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="/js/jquery.lunr.search.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+  $(function() {
+    $('#search-query').lunrSearch({
+      indexUrl: '/search.json',             // URL of the `search.json` index data for your site
+      results:  '#search-results',          // jQuery selector for the search results container
+      entries:  '.entries',                 // jQuery selector for the element to contain the results list, must be a child of the results element above.
+      template: '#search-results-template'  // jQuery selector for the Mustache.js template
+    });
+  });
+</script>
+{% raw %}
+<script id="search-results-template" type="text/mustache">
+    <h2>Search Results</h2>
+    <table class="tableOfContents">
+      <tbody>
+        {{#entries}}
+        <tr>
+          <td class="postDate">
+            {{#date}}<small><time datetime="{{pubdate}}" pubdate>{{displaydate}}</time></small>{{/date}}
+          </td>
+          <td class="postTitle">
+            <a href="{{url}}">{{title}}</a>
+          </td>
+        </tr>
+        {{/entries}}
+      </tbody>
+    </table>
+</script>
+{% endraw %}

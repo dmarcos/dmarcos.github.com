@@ -6,7 +6,7 @@ html, body{
 }
 
 body {
-  color: white;
+  color: #333;
   font-family: "museo-sans", sans-serif;
   font-weight: 300;
   overflow-x: hidden;
@@ -69,13 +69,13 @@ h1{
   text-decoration: none;
 }
 
-table#tableOfContents{
+table.tableOfContents{
   color: #333;
   font-weight: bold;
   width: 70%;
 }
 
-table#tableOfContents td{
+table.tableOfContents td{
   padding-top: 15px;
   padding-bottom: 5px;
   border-bottom-color: rgb(204, 204, 204);
@@ -83,7 +83,7 @@ table#tableOfContents td{
   border-bottom-width: 1px;
 }
 
-table#tableOfContents td#postDate{
+table.tableOfContents td.postDate{
   width: 140px;
   font-size: 16px;
   font-style: italic;
@@ -91,7 +91,7 @@ table#tableOfContents td#postDate{
   font-weight: lighter;
 }
 
-article{
+section#content{
   width: auto;
   display: block;
   position: relative;
@@ -112,6 +112,10 @@ article h1 a{
 
 article p {
   max-width: 500px;
+}
+
+ul#categories {
+  padding-right: 30px;
 }
 
 ul#categories li{
@@ -148,7 +152,7 @@ ul#categories li#search {
   width: 10%;
 }
 
-#searchInput {
+#search-query {
   border: none;
   border-color: #F1F1F1;
   text-indent: 10px;
@@ -157,13 +161,9 @@ ul#categories li#search {
   font-size: 16px;
 }
 
-input#searchInput:focus{
+input#search-query:focus{
   outline: none;
   background-color: white;
-}
-
-#searchSubmit {
-  display: none;
 }
 
 #searchForm {
@@ -199,7 +199,7 @@ p{
     min-height: 0px;
   }
 
-  table#tableOfContents{
+  table.tableOfContents{
     width: 100%;
     font-size: 18px;
   }
