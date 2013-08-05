@@ -194,6 +194,10 @@ p{
     min-height: 0px;
   }
 
+  section#content{
+    padding: 20px 50px 0 0;
+  }
+
   table.tableOfContents{
     width: 100%;
     font-size: 18px;
@@ -211,6 +215,10 @@ p{
     margin: auto;
     display: block;
     padding: 20px;
+  }
+
+  article p{
+    line-height: 30px;
   }
 
   article h2{
