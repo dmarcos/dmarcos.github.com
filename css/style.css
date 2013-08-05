@@ -197,6 +197,10 @@ p{
     min-height: 0px;
   }
 
+  ul#categories {
+    padding-right: 30px;
+  }
+
   table.tableOfContents{
     width: 100%;
     font-size: 18px;
@@ -208,11 +212,6 @@ p{
     margin-left: 0px;
     position: relative;
     z-index: 10;
-  }
-
-  ul#categories li{
-    max-width: none;
-    width: 100%;
   }
 
   article{
