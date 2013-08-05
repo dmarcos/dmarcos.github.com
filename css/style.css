@@ -145,30 +145,28 @@ ul#categories li#search {
   background-color: white;
 }
 
+#searchForm{
+  text-align: left;
+}
+
 #searchIcon {
   display: inline-block;
-  font-size: 20px;
-  float: left;
-  width: 10%;
+  font-size: 22px;
+  line-height: 30px;
 }
 
 #search-query {
   border: none;
+  margin: 0;
+  padding: 0;
   border-color: #F1F1F1;
-  text-indent: 10px;
-  width: 85%;
-  float: right;
   font-size: 16px;
+  width: 75%;
 }
 
 input#search-query:focus{
   outline: none;
   background-color: white;
-}
-
-#searchForm {
-  width: 100%;
-  padding-bottom: 1px;
 }
 
 .postDate {
@@ -189,7 +187,7 @@ p{
   font-size: 1
 }
 
-@media only screen and (max-width: 800px),
+@media only screen and (max-width: 1024px),
        only screen and (min-device-width: 768px) and (max-device-width : 1024px) and (orientation : portrait){
 
  header {
