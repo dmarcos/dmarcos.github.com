@@ -139,13 +139,15 @@ ul#menu li{
   margin-top: 1em;
   text-align: center;
   list-style-type: none;
-  background-color: #d3ce97;
 }
 
 ul#menu li a{
   display: inline-block;
   padding: 0;
   width: 100%;
+  height: 2em;
+  line-height: 2em;
+  background-color: #d3ce97;
 }
 
 ul#menu li a:hover{
@@ -205,11 +207,10 @@ section#articleContent h2{
 }
 
 @media screen and (min-width: 20.000em) { /*320px*/
-  body { font-size: .8em }
+  body { font-size: .9em }
 }
 
 @media screen and (min-width: 25.000em) { /*400px*/
-  body {font-size: .9em }
   #blogTitle .logo{
     height: 150px;
   }
@@ -220,8 +221,6 @@ section#articleContent h2{
 
 @media screen and (min-width: 37.500em) { /*600px*/
   body {font-size: .85em }
-
-  ul#menu li{ float: left }
 
   #blogTitle .logo{
     width: 25%;
@@ -239,6 +238,11 @@ section#articleContent h2{
     width: 30%;
     padding: 1.5em 0;
     margin: 0;
+  }
+
+  ul#menu li a{
+    height: auto;
+    line-height: inherit;
     background: none;
   }
 
