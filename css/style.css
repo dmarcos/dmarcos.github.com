@@ -2,18 +2,30 @@ html, body{
   width: 100%;
   overflow-y: scroll;
   margin: 0px;
-  font-size: 30px;
+  line-height: 1.5em;
 }
 
 body {
-  color: #333;
+  color: #191919;
   font-family: "museo-sans", sans-serif;
-  font-weight: 300;
+  font-weight: 200;
   overflow-x: hidden;
+  background: rgb(236,237,197);
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#container {
+  width: 85%;
+  margin: auto;
 }
 
 a, a:visited {
-  color: #333;
+  color: #191919;
   text-decoration: none;
   outline: 0;
 }
@@ -25,69 +37,66 @@ a, a:visited {
 }
 
 header {
-  position: fixed;
-  min-height: 100%;
-  background-color: rgb(34, 34, 34);
-  width: 20%;
-  color: #333;
+  width: 100%;
+  margin-bottom: 2em;
 }
 
 section#main {
-  margin-left: 20%;
+  width: 90%;
   position: relative;
   z-index: 10;
-  background-color: white;
-  border-left: 1px solid #D6D6D6;
   min-height: 900px;
+  margin: auto;
 }
 
 #blogTitle{
-  padding: 20px;
-  text-align: center
+  text-align: center;
+  border-bottom: 2px solid rgb(150, 133, 49);
+  margin-top: .5em;
 }
 
 h1{
-  font-size: 45px;
-  font-weight: bold;
-  line-height: 50px;
-  border: none;
-  font-family: "myriad-pro", sans-serif;
+  font-size: 140%;
+  line-height: 0.6em;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  vertical-align: top;
+  margin-bottom: 2em;
 }
 
-#blogTitle h1{
-  display: block;
-  color: white;
-  margin-bottom: 38px;
+#blogTitle .logo{
+  display: inline-block;
+  height: 95px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  background-size: 100%;
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-image: url("/images/logo.png");
 }
 
-#blogTitle h1 a{
-  color: inherit;
+#blogTitle a.logo:hover{
   text-decoration: none;
 }
 
-#blogTitle h1 a:hover{
-  text-decoration: none;
-}
-
-table.tableOfContents{
-  color: #333;
-  font-weight: bold;
-  width: 70%;
+.tableOfContentsContainer {
+  width: 100%;
 }
 
 table.tableOfContents td{
   padding-top: 15px;
   padding-bottom: 5px;
-  border-bottom-color: rgb(204, 204, 204);
+  border-bottom-color: rgb(150, 133, 49);;
   border-bottom-style: solid;
   border-bottom-width: 1px;
 }
 
 table.tableOfContents td.postDate{
-  width: 140px;
-  font-size: 16px;
+  width: 200px;
   font-style: italic;
-  color: rgb(34, 34, 34);
   font-weight: lighter;
 }
 
@@ -95,12 +104,11 @@ section#content{
   width: auto;
   display: block;
   position: relative;
-  padding: 20px 0px 0px 50px;
+  padding: 20px;
   min-height: 130px;
 }
 
 article h1{
-  color: #333;
   font-weight: 400;
   max-width: 500px;
 }
@@ -114,42 +122,43 @@ article p {
   max-width: 500px;
 }
 
-ul#categories li{
-  margin: 5px 0px 5px 0px;
-  font-size: 16px;
-  padding: 10px 0 10px 0;
-  background-color: rgb(234, 234, 234);
-  border: 2px solid transparent;
-  height: 25px;
-  width: 100%;
-  display: table;
-}
-
-ul#categories li a{
+ul#menu {
   display: inline-block;
-  color: rgb(34, 34, 34);
-  font-weight: bold;
-  vertical-align: middle;
-  display: table-cell;
+  padding: 0;
+  margin: 0;
+  width: 100%;
 }
 
-ul#categories li:hover{
-  background-color: rgb(229, 94, 90);
+.clear{
+  clear: both;
 }
 
-ul#categories li#search {
-  background-color: white;
+ul#menu li{
+  display: block;
+  width: 100%;
+  margin-top: 1em;
+  text-align: center;
+  list-style-type: none;
+  background-color: #d3ce97;
+}
+
+ul#menu li a{
+  display: inline-block;
+  padding: 0;
+  width: 100%;
+}
+
+ul#menu li a:hover{
+  color: #d13e37;
 }
 
 #searchForm{
   text-align: left;
+  padding: 1em 0;
 }
 
 #searchIcon {
   display: inline-block;
-  font-size: 22px;
-  line-height: 30px;
-  margin-left: 5px;
 }
 
 #search-query {
@@ -157,72 +166,154 @@ ul#categories li#search {
   margin: 0;
   padding: 0;
   border-color: #F1F1F1;
-  font-size: 16px;
-  width: 75%;
+  padding: 0.2em 0.2em 0.05em;
+  -webkit-border-radius: 0;
+  -webkit-appearance: none;
+  margin-bottom: 0.25em;
+  background-color: #d3ce97;
 }
 
 input#search-query:focus{
   outline: none;
   background-color: white;
+  color: #191919;
+}
+
+input#search-query::-webkit-input-placeholder {
+  color: #191919;
+
+}
+input#search-query:-moz-placeholder {
+  color: #191919;
 }
 
 .postDate {
   font-style: italic;
-  font-size: 12px;
-  color: rgb(34, 34, 34);
 }
 
 p{
-  font-size: 18px;
-  line-height: 27px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  color: rgb(34, 34, 34);
+  margin-bottom: 1em;
+  font-size: 1.1em;
 }
 
-@media screen and (max-width: 1366){
-  font-size: 1
+section#articleContent{
+  width: 100%;
 }
 
-@media only screen and (max-width: 1024px),
-       only screen and (min-device-width: 768px) and (max-device-width : 1024px) and (orientation : portrait){
+section#articleContent h2{
+  padding-bottom: 30px;
+}
 
- header {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    min-height: 0px;
+@media screen and (min-width: 20.000em) { /*320px*/
+  body { font-size: .8em }
+}
+
+@media screen and (min-width: 25.000em) { /*400px*/
+  body {font-size: .9em }
+  #blogTitle .logo{
+    height: 150px;
+  }
+  #blogTitle {
+    border-bottom: 1px solid rgb(150, 133, 49);
+  }
+}
+
+@media screen and (min-width: 37.500em) { /*600px*/
+  body {font-size: .85em }
+
+  ul#menu li{ float: left }
+
+  #blogTitle .logo{
+    width: 25%;
+    float: left;
+    height: 61px;
   }
 
-  section#content{
-    padding: 20px 50px 0 0;
+  ul#menu {
+    float: right;
+    width: 74%;
   }
 
-  table.tableOfContents{
-    width: 100%;
-    font-size: 18px;
+  ul#menu li{
+    float: left;
+    width: 30%;
+    padding: 1.5em 0;
+    margin: 0;
+    background: none;
+  }
+
+  section#articleDate{
+    float: left;
+    width: 25%;
+  }
+
+  section#articleContent{
+    float: right;
+    width: 70%;
+  }
+
+  section#articleDate{
+    text-align: center;
   }
 
   section#main {
     width: 100%;
-    min-width: 0;
-    margin-left: 0px;
-    position: relative;
-    z-index: 10;
+    margin: 0;
   }
 
-  article{
-    margin: auto;
-    display: block;
-    padding: 20px;
+  h1{
+    font-size: 160%;
+    margin-bottom: 1em;
   }
 
-  article p{
-    line-height: 30px;
+  p{
+    max-width: 34rem;
   }
 
-  article h2{
-    font-size: 22px;
+  header {
+    margin-bottom: 4em;
   }
 
+  .tableOfContentsContainer {
+    width: 75%;
+    margin-left: 25%;
+  }
+
+}
+
+@media screen and (min-width: 50.000em) { /*800px*/
+  body {font-size: 1em }
+
+  #blogTitle .logo{
+    height: 88px;
+  }
+
+  ul#menu {
+    float: right;
+    width: 74%;
+  }
+
+  ul#menu li{
+    float: left;
+    width: 30%;
+    padding: 2em 0;
+  }
+  h1{
+    font-size: 180%;
+  }
+
+  section#articleContent{
+    float: right;
+    width: 75%;
+  }
+
+}
+
+@media screen and (min-width: 64.375em){ /*1030px*/
+  #blogTitle .logo{
+    height: 88px;
+  }
+}
+
+@media screen and (min-width: 75.000em) and (min-height:31.250em) { /*1200px X 500px*/
 }

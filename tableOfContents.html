@@ -3,18 +3,20 @@ layout: default
 title: "Code Beast"
 ---
 
-  <h2>Table of Contents</h2>
-  <table class="tableOfContents">
-    <tbody>
-      {% for post in site.posts %}
-      <tr>
-        <td class="postDate">
-          {{ post.date | date: "%B %e, %Y" }}
-        </td>
-        <td class="postTitle">
-          <a>{{ post.title }}</a>
-        </td>
-      </tr>
-      {% endfor %} 
-    </tbody>
-  </table>
+  <div class="tableOfContentsContainer">
+    <h1>Table of Contents</h1>
+    <table class="tableOfContents">
+      <tbody>
+        {% for post in site.posts %}
+        <tr>
+          <td class="postDate">
+            {{ post.date | date: "%B %e, %Y" }}
+          </td>
+          <td class="postTitle">
+            <a>{{ post.title }}</a>
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>

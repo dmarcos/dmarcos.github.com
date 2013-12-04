@@ -4,9 +4,12 @@ title: "Swimming Lessons for Modern Life"
 ---
 
 {% for post in site.posts limit: 1 %}
-  <article>
-	  <h1>{{ post.title }}</h1>
-    <div class="postDate">{{ post.date | date: "%B %e, %Y" }}</div>
-	  {{ post.content }}
-  </article>
+   <section id="articleDate">
+  {{ post.date | date: "%B %e, %Y" }}
+  </section>
+  <section id="articleContent">
+  <h1><a>{{ post.title }}</a></h1>
+  {{ post.content }}
+  </section>
+  <div class="underline"></div>
 {% endfor %}

@@ -3,8 +3,11 @@ layout: default
 ---
 
 <article>
-  <h2><a>{{ post.title }}<a></h2>
-  <h2>{{ post.date | date: "%B %e, %Y" }}</h2>
-  <div class="underline"></div>
+  <section id="articleDate">
+  {{ post.date | date: "%B %e, %Y" }}
+  </section>
+  <section id="articleContent">
+  <h1><a>{{ post.title }}<a></h1>
   {{ content }}
+  </section>
 </article>

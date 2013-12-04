@@ -13,37 +13,37 @@
   </head>
 
   <body>
-    <header>
-      <hgroup id="blogTitle">
-        <h1><a href="/">Swimming Lessons for Modern Life</a></h1>
-        <ul id="categories">
-          <li id="search">
-            <form id="searchForm" role="search" method="get" action="
-            /search.html">
-              <div>
-                <i id="searchIcon" class="icon-search"></i>
-                <form action="/search" method="get">
-                  <input type="text" id="search-query" name="q" placeholder="Search" autocomplete="off">
+    <div id="container">
+      <header>
+          <hgroup id="blogTitle">
+            <a class="logo" href="/"></a>
+            <ul id="menu">
+              <li id="tableOfContents"><a href="/tableOfContents.html">Table of Contents</a></li>
+              <li><a href="/search.html">Search</a></li>
+              <li><a href="http://twitter.com/dmarcos">About</a></li>
+              <!-- <li id="search">
+                <form id="searchForm" role="search" method="get" action="/search.html">
+                  <div>
+                    <i id="searchIcon" class="icon-search"></i>
+                    <form action="/search" method="get">
+                      <input type="text" id="search-query" name="q" placeholder="Search" autocomplete="off">
+                    </form>
+                  </div>
                 </form>
-              </div>
-            </form>
-          </li>
-          <li id="tableOfContents"><a href="/tableOfContents.html">Table of Contents</a></li>
-          <li><a href="http://twitter.com/dmarcos">@dmarcos</a></li>
-        </ul>
-      </hgroup>
-    </header>
-    <section id="main">
-      <section id="content">
-      {{ content }}
+              </li> -->
+            </ul>
+            <div class="clear"></div>
+          </hgroup>
+      </header>
+      <section id="main">
+        {{ content }}
       </section>
-    </section>
+    </div>
     <!-- ONLINE -->
     <script type="text/javascript" src="http://use.typekit.com/tcv2air.js"></script>
     <!-- LOCAL -->
     <!-- <script type="text/javascript" src="http://use.typekit.com/wqc3mrt.js"></script> -->
     <script type="text/javascript">
-      document.getElementById('main').scrollIntoView();
       try { Typekit.load(); } catch (e) {}
     </script>
   </body>
