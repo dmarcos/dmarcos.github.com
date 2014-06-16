@@ -7,8 +7,7 @@ html, body{
 
 body {
   color: #191919;
-  font-family: "museo-sans", sans-serif;
-  font-weight: 200;
+  font-family: "Times New Roman", serif;
   overflow-x: hidden;
   background: rgb(236,237,197);
 }
@@ -272,7 +271,7 @@ section#articleContent h2{
   }
 
   p{
-    max-width: 34rem;
+    max-width: 30rem;
   }
 
   header {
@@ -303,6 +302,7 @@ section#articleContent h2{
     width: 30%;
     padding: 2em 0;
   }
+
   h1{
     font-size: 180%;
   }
