@@ -4,10 +4,10 @@ layout: default
 
 <article>
   <section id="articleDate">
-  {{ post.date | date: "%B %e, %Y" }}
+  {{ page.date | date: "%B %e, %Y" }}
   </section>
   <section id="articleContent">
-  <h1><a>{{ post.title }}<a></h1>
+  <h1><a>{{ page.title }}</a></h1>
   {{ content }}
   </section>
 </article>
