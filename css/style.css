@@ -140,6 +140,10 @@ ul#menu {
   clear: both;
 }
 
+em {
+  font-style: italic;
+}
+
 ul#menu li{
   display: block;
   width: 100%;
