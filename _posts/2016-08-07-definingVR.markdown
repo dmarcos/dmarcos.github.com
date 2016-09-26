@@ -32,16 +32,16 @@ Those that we have ve been working on VR for 2-3 years think of ourselves as pio
 
   Contemporary VR systems are a leap forward in the delivery of presence but not all the headseats are created equal. Leaving performance aside, I see three fundamental kinds of systems in the market today:
 
-  1. Rotational: Cardboard, GearVR, DayDream
-  2. Rotational + Positional: Oculus Rift
-  3. Rotational + Positional + Body Presence: HTC Vive and Oculus Rift + Touch
+  - Rotational: Cardboard, GearVR, DayDream
+  - Rotational + Positional: Oculus Rift
+  - Rotational + Positional + Body Presence: HTC Vive and Oculus Rift + Touch.
 
   Presence is both a function of the type of content and the device used to deliver it. The Netflix application on GearVR might able to trigger a sense of presence if you just seat in a couch watching a movie, perfectly still without having to interact with any of your sorroundigs. As soon as you want to reach out into the world or move around the illusion breaks down. The set of experiences where Gear VR can deliver presence is narrower compared to a system with positional tracking, its absence creats many opportunities to break presence. Systems like Gear VR or Daydream can only offer small glimpses of what VR is good for.
 
   Oculus Rift (without Oculus Touch controllers) can for example trigger presence while watching a realtime CG movie like the short story Henry. You can look around and the reflections and light of the environment subtetly accomodate to your head and body movements. If we want to add interactivity we have to use a gamepad. You cannot user your hands, there's a layer of indirection betweeen you and the environment that will likely break the illusion of being there. Without any basic body tracking is hard to add any sort of interactivity without breaking in presence.
 
-  Finally the HTC Vive is capable of delivering the experiences of all the rest and also provide a convincing way to add interactivity without braking in presence. It's difficult to believe you are in a different place as a mere observer where the world is static and not reactive to your natural interactions. The Vive sets the lowest bar of a viable VR system. To build compeling interactive experiences we need at a positional, rotational tracking and hands as a minimum form of body presence. In the future we'll see systems improving over that base line with legs, fingers and facial tracking, improvements in haptick feedback and ergonomics. But those aditions will add up to the baseline.
+  Finally the HTC Vive is capable of delivering the experiences of all the the other systems and also delivers a mechanism to add interactivity without braking in presence. It's difficult to believe you are in a different place as a mere observer where the world is static and not reactive to your natural interactions. The Vive sets the lowest bar of a viable VR system. To build compeling interactive experiences we need a positional, rotational tracking and hands as a minimum form of body presence. In the future we'll see systems improving over that base line with legs, fingers, facial tracking and improvements in haptick feedback and ergonomics but the Vive will be remembered as the first milestone of consumer VR. Thanks a lof to Valve to make this happen.
 
-  [1] <a href="http://www.thevrbook.net/">The VR book</a> I
+  [1] <a href="http://www.thevrbook.net/">The VR book</a>
 
 </p>
