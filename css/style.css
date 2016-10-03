@@ -3,6 +3,7 @@ html, body{
   overflow-y: scroll;
   margin: 0px;
   line-height: 1.5em;
+  font-size: 18px;
 }
 
 body {
@@ -54,6 +55,17 @@ section#main {
 
 img {
   max-width: 100%;
+}
+
+ul {
+  margin-bottom: 2em;
+  margin-left: 15px;
+}
+
+li {
+  list-style-type: disc;
+  left-margin: 35px;
+  margin-bottom: 5px;
 }
 
 #blogTitle{
@@ -202,7 +214,7 @@ input#search-query:-moz-placeholder {
 }
 
 p {
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   line-height: 1.875em;
   font-size: 18px;
 }
@@ -317,7 +329,6 @@ section#articleContent h2{
   ul#menu li{
     float: left;
     width: 30%;
-    padding: 2em 0;
   }
 
   h1{
