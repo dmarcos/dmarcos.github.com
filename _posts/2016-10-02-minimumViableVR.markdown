@@ -4,7 +4,7 @@ title: Minimum Viable VR
 category: VR
 ---
 
-<strong class="dropcap">T</strong>hose we have ve been working on VR for 2-3 years think of ourselves as pioneers but there's a bunch of people that have been gathering regularly for 14 years to talk exclusively about presence. I've recently learned about <a href="http://ispr.info/">The International Society for Presence Research (ISPR)</a>
+<strong class="dropcap">T</strong>hose we have been working on VR for 2-3 years think of ourselves as pioneers but there's a bunch of people that have been gathering regularly for 14 years to talk exclusively about presence. I've recently learned about <a href="http://ispr.info/">The International Society for Presence Research (ISPR)</a>
 
   <img src='http://d1l1ifh5i7l9sd.cloudfront.net/wp-content/blogs.dir/36/files/2009/10/ISPR-ICA2016-500.jpg'>
 
