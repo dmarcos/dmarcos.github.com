@@ -110,21 +110,6 @@ section#content{
   min-height: 130px;
 }
 
-article h1{
-  font-weight: 400;
-  max-width: 700px;
-}
-
-article h1 a{
-  text-decoration: none;
-  font-weight: 900;
-}
-
-article p {
-  max-width: 700px;
-  line-height: 1.875em;
-}
-
 article em {
   font-style: italic;
 }
@@ -204,9 +189,22 @@ input#search-query:-moz-placeholder {
   font-style: italic;
 }
 
-p{
+.dropcap {
+  font-weight: 600;
+  float: left;
+  padding-top: 22px;
+  padding-right: 5px;
+  font-size: 4.5em;
+}
+
+p {
   margin-bottom: 1em;
-  font-size: 1.1em;
+  line-height: 1.875em;
+  font-size: 18px;
+}
+
+em {
+  line-height: 1.875em;
 }
 
 section#articleContent{
@@ -284,7 +282,9 @@ section#articleContent h2{
   }
 
   p{
-    max-width: 30rem;
+    max-width: 700px;
+    line-height: 1.875em;
+    font-size: 18px;
   }
 
   header {
