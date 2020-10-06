@@ -1,27 +1,67 @@
 html, body{
   width: 100%;
-  overflow-y: scroll;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
   margin: 0px;
   line-height: 1.5em;
-  font-size: 18px;
+  font-size: 16px;
+  background-color: #e50185;
 }
 
-body {
-  color: #191919;
-  font-family: "Times New Roman", serif;
-  overflow-x: hidden;
-  background: rgb(236,237,197);
+.header {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 40%;
+  font-family: Helvetica, sans-serif;
+  font-size: 100px;
+  font-weight: 900;
+  color: #e50185;
+  background-color: #f4cc70;
+}
+
+.header .title {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  line-height: 68px;
+  vertical-align: text-bottom;
+}
+
+.header .icons {
+  position: absolute;
+  bottom: -150px;
+  width: 100%;
+  color: #f4cc70;
+  text-align: center;
+  user-select: none;
+  vertical-align: text-bottom;
+}
+
+.header .icons .icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: 100px;
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.twitter {
+  background-image: url('/images/github-icon.png');
+}
+
+.github {
+  background-image: url('/images/twitter-icon.png');
 }
 
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-}
-
-#container {
-  width: 85%;
-  margin: auto;
 }
 
 a, a:visited {
@@ -33,320 +73,4 @@ a, a:visited {
   background: rgb(229, 94, 90);
   color: white;
   text-shadow: none;
-}
-
-ul {
-  margin-bottom: 10px;
-  margin-bottom: 15px;
-}
-
-header {
-  width: 100%;
-  margin-bottom: 2em;
-}
-
-section#main {
-  width: 90%;
-  position: relative;
-  z-index: 10;
-  min-height: 900px;
-  margin: auto;
-}
-
-img {
-  max-width: 100%;
-}
-
-ul {
-  margin-bottom: 2em;
-  margin-left: 15px;
-}
-
-li {
-  list-style-type: disc;
-  left-margin: 35px;
-  margin-bottom: 5px;
-}
-
-#blogTitle{
-  text-align: center;
-  border-bottom: 2px solid rgb(150, 133, 49);
-  margin-top: .5em;
-}
-
-h1{
-  font-size: 140%;
-  font-weight: 400;
-  padding: 0;
-  margin: 0;
-  vertical-align: top;
-  margin-bottom: 2em;
-}
-
-#blogTitle .logo{
-  display: inline-block;
-  height: 95px;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  text-decoration: none;
-  background-size: 100%;
-  background-position: 50% 100%;
-  background-repeat: no-repeat;
-  background-image: url("/images/logo.png");
-}
-
-#blogTitle a.logo:hover{
-  text-decoration: none;
-}
-
-.tableOfContentsContainer {
-  width: 100%;
-}
-
-table.tableOfContents td{
-  padding-top: 15px;
-  padding-bottom: 5px;
-  border-bottom-color: rgb(150, 133, 49);;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-}
-
-table.tableOfContents td.postDate{
-  width: 200px;
-  font-style: italic;
-  font-weight: lighter;
-}
-
-section#content{
-  width: auto;
-  display: block;
-  position: relative;
-  padding: 20px;
-  min-height: 130px;
-}
-
-article em {
-  font-style: italic;
-}
-
-ul#menu {
-  display: inline-block;
-  padding: 0;
-  margin: 0;
-  width: 100%;
-}
-
-.clear{
-  clear: both;
-}
-
-em {
-  font-style: italic;
-}
-
-ul#menu li{
-  display: block;
-  width: 100%;
-  margin-top: 1em;
-  text-align: center;
-  list-style-type: none;
-}
-
-ul#menu li a{
-  display: inline-block;
-  padding: 0;
-  width: 100%;
-  height: 2em;
-  line-height: 2em;
-  background-color: #d3ce97;
-}
-
-ul#menu li a:hover{
-  color: #d13e37;
-}
-
-#searchForm{
-  text-align: left;
-  padding: 1em 0;
-}
-
-#searchIcon {
-  display: inline-block;
-}
-
-#search-query {
-  border: none;
-  margin: 0;
-  padding: 0;
-  border-color: #F1F1F1;
-  padding: 0.2em 0.2em 0.05em;
-  -webkit-border-radius: 0;
-  -webkit-appearance: none;
-  margin-bottom: 0.25em;
-  background-color: #d3ce97;
-}
-
-input#search-query:focus{
-  outline: none;
-  background-color: white;
-  color: #191919;
-}
-
-input#search-query::-webkit-input-placeholder {
-  color: #191919;
-
-}
-input#search-query:-moz-placeholder {
-  color: #191919;
-}
-
-.postDate {
-  font-style: italic;
-}
-
-.dropcap {
-  font-weight: 600;
-  float: left;
-  padding-top: 22px;
-  padding-right: 5px;
-  font-size: 4.5em;
-}
-
-p {
-  margin-bottom: 2em;
-  line-height: 1.875em;
-  font-size: 18px;
-}
-
-em {
-  line-height: 1.875em;
-}
-
-section#articleContent{
-  width: 100%;
-}
-
-section#articleContent h2{
-  padding-bottom: 30px;
-}
-
-@media screen and (min-width: 20.000em) { /*320px*/
-  body { font-size: .9em }
-}
-
-@media screen and (min-width: 25.000em) { /*400px*/
-  #blogTitle .logo{
-    height: 150px;
-  }
-  #blogTitle {
-    border-bottom: 1px solid rgb(150, 133, 49);
-  }
-}
-
-@media screen and (min-width: 37.500em) { /*600px*/
-  body {font-size: .85em }
-
-  h1{ line-height: 0.6em; }
-
-  #blogTitle .logo{
-    width: 25%;
-    float: left;
-    height: 61px;
-  }
-
-  ul#menu {
-    float: right;
-    width: 74%;
-  }
-
-  ul#menu li{
-    float: left;
-    width: 30%;
-    padding: 1.5em 0;
-    margin: 0;
-  }
-
-  ul#menu li a{
-    height: auto;
-    line-height: inherit;
-    background: none;
-  }
-
-  section#articleDate{
-    float: left;
-    width: 25%;
-  }
-
-  section#articleContent{
-    float: right;
-    width: 70%;
-  }
-
-  section#articleDate{
-    text-align: center;
-  }
-
-  section#main {
-    width: 100%;
-    margin: 0;
-  }
-
-  h1{
-    font-size: 160%;
-    margin-bottom: 1em;
-  }
-
-  p{
-    max-width: 700px;
-    line-height: 1.875em;
-    font-size: 18px;
-  }
-
-  header {
-    margin-bottom: 4em;
-  }
-
-  .tableOfContentsContainer {
-    width: 75%;
-    margin-left: 25%;
-  }
-
-}
-
-@media screen and (min-width: 50.000em) { /*800px*/
-  body {font-size: 1em }
-
-  #blogTitle .logo{
-    height: 88px;
-  }
-
-  ul#menu {
-    float: right;
-    width: 74%;
-  }
-
-  ul#menu li{
-    float: left;
-    width: 30%;
-  }
-
-  h1{
-    font-size: 180%;
-  }
-
-  section#articleContent{
-    float: right;
-    width: 75%;
-  }
-
-}
-
-@media screen and (min-width: 64.375em){ /*1030px*/
-  #blogTitle .logo{
-    height: 88px;
-  }
-}
-
-@media screen and (min-width: 75.000em) and (min-height:31.250em) { /*1200px X 500px*/
 }

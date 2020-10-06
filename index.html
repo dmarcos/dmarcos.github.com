@@ -1,15 +1,18 @@
----
-layout: default
-title: "Swimming Lessons for Modern Life"
----
-
-{% for post in site.posts limit: 1 %}
-   <section id="articleDate">
-  {{ post.date | date: "%B %e, %Y" }}
-  </section>
-  <section id="articleContent">
-  <h1><a>{{ post.title }}</a></h1>
-  {{ post.content }}
-  </section>
-  <div class="underline"></div>
-{% endfor %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Home · Diego Marcos</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <div class="title">DIEGO MARCOS</div>
+      <div class="icons">
+        <a href="https://twitter.com/dmarcos" class="icon twitter"></a>
+        <a href="https://github.com/dmarcos" class="icon github"></a>
+      </div>
+    </div>
+  </body>
+</html>
