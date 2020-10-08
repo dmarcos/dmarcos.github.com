@@ -51,11 +51,11 @@ html, body{
 }
 
 .twitter {
-  background-image: url('/images/github-icon.png');
+  background-image: url('/images/twitter-icon.png');
 }
 
 .github {
-  background-image: url('/images/twitter-icon.png');
+  background-image: url('/images/github-icon.png');
 }
 
 *, *:after, *:before {
